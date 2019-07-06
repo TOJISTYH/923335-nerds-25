@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>Дизайн-студия "Nerds"</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="img/logo.svg" widht="160" height="65" alt="Логотип дизайн-студии из Краснодара  'Nerds'">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="#">Студия</a></li>
+        <li><a href="#">Клиенты</a></li>
+        <li><a href="#">Магазин</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+      <a class="cart-link" href="#">Корзина</a>
+    </nav>
+  </header>
+  <main class="container">
+    <h1>Магазин готовых шаблонов</h1>
+    <sections class="filtres">
+      <h2 class="filtres-grid">Фильтр:</h2>
+      <form action="" method="get">
+        <fieldset>
+          <legend>Стоимость</legend>
+        </fieldset>
+        <fieldset>
+            <legend>Сетка</legend>
+            <ul>
+              <li>
+                <label>
+                  <input class="visually-hidden" type="radio" name="grid" value="Adaptive" checked>
+                  Адаптивная
+                </label>
+              </li>
+              <li>
+                  <label>
+                    <input class="visually-hidden" type="radio" name="grid" value="Fixed">
+                    Фиксированная
+                  </label>
+                </li>
+                <li>
+                    <label>
+                      <input class="visually-hidden" type="radio" name="grid" value="Rubber">
+                      Резиновая
+                    </label>
+                  </li>
+            </ul>
+          </fieldset>
+        <fieldset>
+          <legend>Особености</legend>
+          <ul>
+            <li class="filter-features">
+              <label>
+                <input class="visually-hidden" type="checkbox" name="slider" checked>
+                Слайдер
+              </label>
+            </li>
+            <li class="filter-color">
+              <label>
+                <input class="visually-hidden" type="checkbox" name="block">
+                Блок преимуществ
+              </label>
+            </li>
+            <li class="filter-color">
+              <label>
+                <input class="visually-hidden" type="checkbox" name="news" checked>
+                Новости
+              </label>
+            </li>
+            <li class="filter-color">
+              <label>
+                <input class="visually-hidden" type="checkbox" name="gallery" checked>
+                Галерея
+              </label>
+            </li>
+            <li class="filter-color">
+              <label>
+                <input class="visually-hidden" type="checkbox" name="basket">
+                Корзина
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+        <button class="button" type="submit">Показать</button>
+      </form>
+    </sections>
+    <section class="catalog">
+      <h2 class="visualy-hidden">Каталог макетов</h2>
+      <ul class="catalog-list">
+        <li class="catalog-item">
+          <img class="catalog-item-image" src="img/img-sedona.jpg" widht="360" height="576" alt="Макет sedona">
+          <div class="catalog-item-hover">
+
+          </div>
+        </li>
+
+      </ul>
+    </section>
+  </main>
+  <footer class="main-footer">
+
+      <div class="footer-social">
+        <ul>
+          <li>
+            <a class="social-button" href="#">
+              <img src="img/vk.svg" width="80" height="80" alt="">Вконтакте</a>
+          </li>
+          <li>
+            <a class="social-button" href="#">
+              <img src="img/facebook.svg" width="80" height="80" alt="">Фейсбук</a>
+          </li>
+          <li>
+            <a class="social-button" href="#">
+              <img src="img/instagram.svg" width="80" heigt="80" alt="">Инстаграм</a>
+          </li>
+        </ul>
+      </div>
+      <p>
+        <b>Давайте дружить, это выгодно!</b>
+        <br>Скидка 10% для друзей из социальных сетей.
+      </p>
+    </footer>
+  </body>
+
+</html>

@@ -1,12 +1,154 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>Дизайн-студия "Nerds"</title>
+</head>
 
-  </body>
+<body>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo">
+        <img src="img/logo.svg" widht="160" height="65" alt="Логотип дизайн-студии из Краснодара  'Nerds'">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="#">Студия</a></li>
+        <li><a href="#">Клиенты</a></li>
+        <li><a href="#">Магазин</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+      <a class="cart-link" href="#">Корзина</a>
+    </nav>
+  </header>
+  <main class="container">
+    <h1 class="visually-hidden">Дизайн-студия из Краснодара "Nerds"</h1>
+    <section class="sliders" id="slider1">
+      <p>Долго, дорого, скрупулезно.</p>
+      <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+          <a class="button" href="#">Узнать больше</a>
+          <img src="img/slide1.png" width="698" height="413" alt="">
+    </section>
+    <section class="sliders" id="slider2">
+        <p>Любим математику как никто другой</p>
+        <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+            <a class="button" href="#">Узнать больше</a>
+            <img src="img/slide2.png" width="698" height="413" alt="">
+      </section>
+      <section class="sliders" id="slider3">
+          <p>Только ночь, только хардкор</p>
+          <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+              <a class="button" href="#">Узнать больше</a>
+              <img src="img/slide3.png" width="698" height="413" alt="">
+        </section>
+
+    <section class="offers">
+      <h2>Предложения</h2>
+      <ul>
+        <li>
+          <img src="img/illustration-1.png" width="300" height="146" alt="">
+          <h3>Веб-сайты</h3>
+          <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
+          <a class="button" href="#">Заказать</a>
+        </li>
+        <li>
+          <img src="img/illustration-2.png" width="300" height="146" alt="">
+          <h3>Приложения</h3>
+          <p>Покорите топ-10 приложений в AppStore и Google Play</p>
+          <a class="button" href="#">Заказать</a>
+        </li>
+        <li>
+          <img src="img/illustration-3.png" width="300" height="146" alt="">
+          <h3>Презентации</h3>
+          <p>Вы даже не подозреваете, насколько вы изумительны!</p>
+          <a class="button" href="#">Заказать</a>
+        </li>
+      </ul>
+    </section>
+    <section class="about">
+      <h2 class="visually-hidden">О нас</h2>
+      <p>Мы — маленькая, но гордая дизайн-студия из Краснодара. </p>
+      <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+        превыше креатива. Работаем не покладая рук, как роботы.</p>
+      <h3>Выполняем заказы на разработку:</h3>
+      <ul class="about-reviews">
+        <li>Веб-сайтов любой сложности</li>
+        <li>Мобильных приложений для iOS и Android</li>
+        <li>Слайдшоу и видео для корпоративных презентаций</li>
+      </ul>
+      <img src="img/nerds-illustration.png" width="360" height="208" alt="Nerds">
+      <table>
+        <caption>с 2004 года Любим точность во всем:</caption>
+        <tr>
+          <td>146%</td>
+          <td>Уровень самоотдачи</td>
+        </tr>
+        <tr>
+          <td>146%</td>
+          <td>Соблюдение сроков</td>
+        </tr>
+        <tr>
+          <td>146%</td>
+          <td>Минимальная проедоплата</td>
+        </tr>
+      </table>
+    </section>
+    <section class="partners">
+      <h2 class="visually-hidden">Партнеры</h2>
+      <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-1.png" width="209" height="90"
+          alt="Html academy"></a>
+      <img src="img/logo-2.png" width="209" height="90" alt="Borodinski">
+      <img src="img/logo-3.png" width="209" height="90" alt="Pink">
+      <img src="img/logo-4.png" width="209" height="90" alt="Mishka">
+    </section>
+    <section class="contacts">
+      <h2>Контакты</h2>
+      <a href="#"><img src="img/map.png" width="1440" height="416"
+          alt="Карта с нашим адресом: г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8"></a>
+    </section>
+    <section class="modal write-us">
+      <h2>Напишите нам</h2>
+      <button class="modal-close" type="button">Закрыть</button>
+      <form class="write-us-form" action="#" method="post">
+        <label>
+          Ваше имя:
+          <input class="name-writer" type="text" name="email-writer" placeholder="Имя Фамилия">
+        </label>
+        <label>
+          Ваш e-mail:
+          <input class="email-writer" type="email" name="email-writer" placeholder="email@example.com">
+        </label>
+        <label>
+          Текст письма:
+          <textarea class="message-writer" name="message-writer" placeholder="В свободной форме"></textarea>
+        </label>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+    </section>
+  </main>
+  <footer class="main-footer">
+
+    <div class="footer-social">
+      <ul>
+        <li>
+          <a class="social-button" href="#">
+            <img src="img/vk.svg" width="80" height="80" alt="">Вконтакте</a>
+        </li>
+        <li>
+          <a class="social-button" href="#">
+            <img src="img/facebook.svg" width="80" height="80" alt="">Фейсбук</a>
+        </li>
+        <li>
+          <a class="social-button" href="#">
+            <img src="img/instagram.svg" width="80" heigt="80" alt="">Инстаграм</a>
+        </li>
+      </ul>
+    </div>
+    <p>
+      <b>Давайте дружить, это выгодно!</b>
+      <br>Скидка 10% для друзей из социальных сетей.
+    </p>
+  </footer>
+</body>
+
 </html>
